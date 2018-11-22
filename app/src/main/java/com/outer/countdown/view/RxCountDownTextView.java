@@ -37,6 +37,7 @@ import io.reactivex.schedulers.Schedulers;
 
 public class RxCountDownTextView extends LinearLayout {
     private TextView mTvTime;
+
     // 提供默认的设置
     private static final String INIT_TEXT = "获取验证码";
     private static final String PREFIX_RUN_TEXT = "剩余时间";
