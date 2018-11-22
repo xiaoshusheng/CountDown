@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="第一种方式(点击重置)"
+        android:textColor="#313133"
+        android:textSize="15sp"/>
+
+    <com.outer.countdown.view.CountDownTextView
+        android:id="@+id/cdt_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/select_save_bg"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        app:finish_text="重新获取"
+        app:init_text="发送验证短信"
+        app:one_time="1000"
+        app:prefix_run_text="剩余时间"
+        app:suffix_run_text="秒"
+        app:time_color="#F08519" />
+
+    <TextView
+        android:id="@+id/tv_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="第二种方式(点击重置)"
+        android:textColor="#313133"
+        android:textSize="15sp"/>
+    <com.outer.countdown.view.RxCountDownTextView
+        android:id="@+id/rt_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:finish_text="重新获取"
+        app:init_text="发送验证短信"
+        app:one_time="1000"
+        app:prefix_run_text="剩余时间"
+        app:suffix_run_text="秒"
+        app:time_color="#F08519"
+        app:total_time="10"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/border_f08519_f08519_5" android:state_checkable="true" />
+    <item android:drawable="@drawable/border_f08519_f08519_5" android:state_pressed="true" />
+    <item android:drawable="@drawable/border_f08519_f08519_5" android:state_enabled="true" />
+    <item android:drawable="@drawable/border_ccc_ccc_5" android:state_checkable="false" />
+    <item android:drawable="@drawable/border_ccc_ccc_5" android:state_pressed="false" />
+    <item android:drawable="@drawable/border_ccc_ccc_5" android:state_enabled="false" />
+</selector>

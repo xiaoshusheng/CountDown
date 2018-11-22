@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义倒计时控件-->
+    <declare-styleable name="CountDownTimerView">
+        <attr name="init_text" format="string" />
+        <attr name="prefix_run_text" format="string" />
+        <attr name="suffix_run_text" format="string" />
+        <attr name="finish_text" format="string" />
+        <attr name="total_time" format="integer" />
+        <attr name="one_time" format="integer" />
+        <attr name="time_color" format="color|reference" />
+    </declare-styleable>
+</resources>
